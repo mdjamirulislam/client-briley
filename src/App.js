@@ -1,23 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
-
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="">
+      <div>
+        md jamirul kha so we have to know how to long be able what to do some
+        thing about me for long be country along be long be colorfully thanks
+        for any color how to long be ablw for this girls very sweet and very
+        this girls eyes very mayabi for any
+      </div>
     </div>
   );
 }
