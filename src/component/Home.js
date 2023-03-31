@@ -10,7 +10,7 @@ const Home = () => {
 
   return (
     <div className=' '>
-       <div className='flex justify-between h-screen w-full px-3 py-3  bg-[#0a192f] '>
+       <div className='flex  justify-between h-screen w-full px-3 py-3  bg-[#0a192f] '>
         <div className='font-farmm text-pink-600 text-4xl '>
           <h1>md jamirul</h1>
         </div>
@@ -42,54 +42,56 @@ const Home = () => {
           </Link>
         </li>
       </ul>
-        </div>
+         
+         {/* Hamburger */}
+      
         
        </div>
         
 
-      {/* Hamburger */}
-      <div onClick={handleClick} className='md:hidden z-10'>
-        {!nav ? <FaBars /> : <FaTimes />}
-      </div>
+
 
       {/* Mobile menu */}
+      <div className={!nav ? 'hidden' : 'absolute md:hidden top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center'}>
       <ul
-        className={
-          !nav
-            ? 'hidden'
-            : 'absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center'
-        }
+        
       >
-        <li className='py-6  text-4xl'>
+        <li className='py-6 text-gray-300 hover:text-pink-600  text-4xl '>
           <Link onClick={handleClick} to='home'  duration={500}>
             Home
           </Link>
         </li>
-        <li className='py-6  text-4xl'>
-          {' '}
+        <li className='py-6 text-gray-300 hover:text-pink-600  text-4xl'>
+         
           <Link onClick={handleClick} to='about'  duration={500}>
             About
           </Link>
         </li>
-        <li className='py-6  text-4xl'>
-          {' '}
+        <li className='py-6 text-gray-300 hover:text-pink-600  text-4xl'>
+          
           <Link onClick={handleClick} to='skills'  duration={500}>
             Skills
           </Link>
         </li>
-        <li className='py-6  text-4xl'>
-          {' '}
+        <li className='py-6 text-gray-300 hover:text-pink-600  text-4xl'>
+          
           <Link onClick={handleClick} to='work'  duration={500}>
             Work
           </Link>
         </li>
-        <li className='py-6  text-4xl'>
-          {' '}
+        <li className='py-6 text-gray-300 hover:text-pink-600  text-4xl'>
+         
           <Link onClick={handleClick} to='contact'  duration={500}>
             Contact
           </Link>
         </li>
       </ul>
+      </div>
+      <div onClick={handleClick} className='md:hidden text-pink-600 !z-10'>
+        {!nav ? <FaBars /> : <FaTimes />}
+      </div>
+        </div>
+      
 
       {/* Social icons */}
       <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
