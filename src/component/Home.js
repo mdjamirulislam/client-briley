@@ -10,7 +10,7 @@ const Home = () => {
 
   return (
     <div className=' '>
-       <div className='flex  justify-between h-screen w-full px-3 py-3  bg-[#0a192f] '>
+       <div className='flex  justify-between  px-5 py-5  bg-[#0a192f] '>
         <div className='font-farmm text-pink-600 text-4xl '>
           <h1>md jamirul</h1>
         </div>
@@ -87,8 +87,8 @@ const Home = () => {
         </li>
       </ul>
       </div>
-      <div onClick={handleClick} className='md:hidden text-pink-600 !z-10'>
-        {!nav ? <FaBars /> : <FaTimes />}
+      <div onClick={handleClick} className='md:hidden text-2xl text-pink-600 z-10'>
+        {!nav ? <FaBars   /> : <FaTimes  />}
       </div>
         </div>
       
@@ -130,6 +130,7 @@ const Home = () => {
           </li>
         </ul>
       </div>
+      
     </div>
   );
 };

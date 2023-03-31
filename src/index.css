@@ -2,7 +2,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&family=Kanit&family=Lobster&family=Oswald:wght@200;300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fasthand&family=Oswald:wght@200;300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fasthand&family=Lobster&family=Oswald:wght@200;300;400;500;600;700&display=swap');
 body {
@@ -16,6 +16,9 @@ body {
 
 .font-farm{
   font-family: 'Fasthand', cursive;;
+}
+.font-farmmm{
+  font-family: 'Kanit', sans-serif;
 }
 .font-farmm{
   font-family: 'Lobster', cursive;
