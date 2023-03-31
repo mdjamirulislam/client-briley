@@ -99,7 +99,7 @@ const Home = () => {
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[0px] px-3 duration-300 bg-blue-600'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
-              href='/'
+              href='https://www.linkedin.com/in/md-jamirul-4169a423b/'
             >
               Linkedin <FaLinkedin size={30} />
             </a>
@@ -107,7 +107,7 @@ const Home = () => {
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[0px] px-3 duration-300 bg-[#333333]'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
-              href='/'
+              href='https://github.com/mdjamirulislam'
             >
               Github <FaGithub size={30} />
             </a>
@@ -115,7 +115,7 @@ const Home = () => {
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[0px] px-3 duration-300 bg-[#6fc2b0]'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
-              href='/'
+              href="khanmdjami299@gmail.com"
             >
               Email <HiOutlineMail size={30} />
             </a>
