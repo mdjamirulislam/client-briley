@@ -40,8 +40,7 @@ code {
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
-  width:350px;
-  height:250px;
+ 
   border-radius:25px
 }
 .back-2{
@@ -49,8 +48,7 @@ code {
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
-  width:350px;
-  height:250px;
+  
   border-radius:25px;
 }
 

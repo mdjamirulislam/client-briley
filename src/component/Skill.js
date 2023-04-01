@@ -24,7 +24,7 @@ const Skill = () => {
 
         {/* all image slider skills  */}
 
-        <div className="md:w-[70%] w-full  justify-between   text-gray-300 grid grid-cols-2  md:grid-cols-5 items-center mx-auto mt-10">
+        <div className="lg:w-[70%] md:w-[80%]  w-full  justify-between   text-gray-300 grid grid-cols-2  lg:grid-cols-5 md:grid-cols-4 sm:grid-cols-3 items-center mx-auto mt-10">
          <div className="mb-32 w-24  ml-12  text-center hover:scale-110 hover:cursor-pointer duration-500 transition-all">
          <img className=" " src={html} alt="" />
           <h1> HTML</h1>
