@@ -27,3 +27,31 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.back-1{
+  background-image: url(./assets/projects/realestate.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width:200px;
+  height:100px;
+}
+.back-1{
+  background-image: url(./assets/projects/realestate.jpg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width:350px;
+  height:250px;
+  border-radius:25px
+}
+.back-2{
+  background-image: url(./assets/projects/workImg.jpeg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width:350px;
+  height:250px;
+  border-radius:25px;
+}
+
+
